@@ -11,6 +11,11 @@ export default {
   name: "App",
   components: {
     TheHeader
+  },
+  computed: {
+    scrollbarWidth() {
+      return window.innerWidth - document.documentElement.clientWidth;
+    }
   }
 };
 </script>
@@ -38,9 +43,13 @@ export default {
 html,
 body {
   position: relative;
-  width: 100%;
-  height: 100%;
   font-family: "Sen";
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 ul {

@@ -45,6 +45,7 @@ export default {
   background: linear-gradient(to bottom, transparent, var(--c-dark));
   color: var(--c-greybright);
   padding: 12vmin 30vmin;
+  position: relative;
 }
 
 .header__grid {

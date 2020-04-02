@@ -30,6 +30,7 @@ export default {
   transform-origin: center bottom;
   background-position: 0 bottom;
   background-size: 50%;
+  bottom: 0;
 }
 
 .wave--top {

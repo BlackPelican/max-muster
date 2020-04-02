@@ -11,7 +11,7 @@ export default {
   name: "TheNav",
   data: () => {
     return {
-      lis: ["Portfolio", "Blog", "Contact"]
+      lis: ["About", "Blog", "Contact"]
     };
   }
 };
