@@ -1,3 +1,4 @@
 module.exports = {
-    publicPath: "/tomato/"
+  outputDir: "docs",
+  publicPath: process.env.NODE_ENV === "production" ? "/max-muster/" : "/"
 }
